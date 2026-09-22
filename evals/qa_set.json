@@ -1,0 +1,5 @@
+[
+  {"question": "How much support does PM-KISAN provide each year?", "must_contain": ["6,000"]},
+  {"question": "How many PM-KISAN instalments are paid?", "must_contain": ["three"]},
+  {"question": "Can this app confirm PM-JAY beneficiary status?", "must_contain": ["cannot confirm"]}
+]
