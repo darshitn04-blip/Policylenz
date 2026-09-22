@@ -34,3 +34,6 @@ python -m pytest
 ```
 
 Add human-verified cases to `evals/qa_set.json`; the evaluator reports simple must-contain accuracy. Record the test date, document versions, and failures in your project report.
+
+
+Streamlit Link : https://rti-rag-demo-2026.streamlit.app/
