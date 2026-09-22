@@ -75,7 +75,7 @@ class Retriever:
             self.index = faiss.IndexFlatIP(vectors.shape[1])
             self.index.add(np.asarray(vectors, dtype="float32"))
             self.backend = "SentenceTransformer + FAISS"
-        except ImportError:
+        except Exception:
             # Keeps the project easy to run on machines without PyTorch/FAISS.
             from sklearn.feature_extraction.text import TfidfVectorizer
             self.vectorizer = TfidfVectorizer(stop_words="english")
